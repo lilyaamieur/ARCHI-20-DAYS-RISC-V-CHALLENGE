@@ -10,17 +10,19 @@
 
 .org 0x200
 .text
+
+_start:
 li a7, 4
 la a0, txt1
 ecall
 
 li a7, 8
 la a0, buffer
-li a1 255
+li a1, 255
 ecall
 
-addi a1 x0 -1 # counter
-addi t1 x0 10 # the ending character “\n”
+addi a1, x0, -1 # counter
+addi t1, x0, 10 # the ending character “\n”
 
 Loop:
 lb t0, 0(a0)
@@ -37,6 +39,6 @@ li a7, 1
 add a0, x0, a1
 ecall
 
-li a7 4
+li a7, 4
 la a0, txt3
 ecall
