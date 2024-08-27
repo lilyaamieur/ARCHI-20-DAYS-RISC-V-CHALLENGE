@@ -9,7 +9,7 @@ palin: .ascii "lil"
 
 _start:
     la a0, palin
-    li a1, 15         #length of the string
+    li a1, 3        #length of the string
     jal ra, palindrom
 
 palindrom:
