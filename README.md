@@ -29,6 +29,25 @@ Here’s a brief overview of what you'll encounter during the challenge:
 
 Each challenge will have its own folder containing the problem statement, example code, and a solution in RISC-V assembly.
 
+
+## Exercises
+| Exercise name | Difficulty | Covered topics|
+|---------------|:----------:|---------------|
+| `binary2dec` | easy | load/store, bit operations|
+| `counting_bits` | easy| bit operations|
+| `max_of_arr` | easy | load/store|
+| `reversing_string` | easy| load/store, strings|
+| `simple_stack` | easy| stack|
+| `sum_even` | easy| load/store, bit operations|
+| `bubblesort` | medium| load/store|
+| `dec2binary` | medium| load/store, bit operations|
+| `jumptables` | medium| jumptables |
+| `printlen` | medium| load/store, strings|
+| `rec_fn` | medium| recursion|
+| `binary_search` | hard| load/store, complex control flow, recursion|
+| `binary_tree_max` | hard| load/store, trees, complex control flow, recursion|
+| `triangular_numbers` | hard| recursion|
+
 ## Getting Started
 
 To get started with this challenge:
