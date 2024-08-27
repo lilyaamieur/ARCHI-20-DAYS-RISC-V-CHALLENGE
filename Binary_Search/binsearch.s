@@ -47,6 +47,7 @@ isleft:
 
 isthere:
     add a0, t0, zero        # Return the address of the found element
+    la a0, a0
     ret
 
 isnotthere:
