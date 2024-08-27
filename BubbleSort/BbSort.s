@@ -27,7 +27,7 @@ Loop_i:
     add t1, t0, zero    # j = i
 Loop_j:
     sub t3, a1, t0      # t3 = length - i
-    addi t3, t3, -2     # t3 = length - i - 2
+    addi t3, t3, -1    # t3 = length - i - 1
     bge t1, t3, next_i  # if j >= length - i - 1, go to next i
 
     add t4, a0, t1      # t4 = base address + j
