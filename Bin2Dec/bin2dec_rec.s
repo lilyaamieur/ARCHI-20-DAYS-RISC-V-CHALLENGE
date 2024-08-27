@@ -10,7 +10,7 @@ binary_array: .byte 1, 0, 0, 1, 0, 1, 2  ; #Example binary array
 
 _start:
     la a0, binary_array  ; #Pointer to the start
-    jal ra, binary_to_decimal ; a0 = 0x25
+    jal ra, binary_to_decimal ; #a0 = 0x25
     ebreak
 
 # Function binary_to_decimal
