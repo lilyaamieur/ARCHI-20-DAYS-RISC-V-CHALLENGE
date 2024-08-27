@@ -1,22 +1,26 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
-#include <string>
 using namespace std;
 
-int find_palindrome(string s, int length)
+int binary_search(int* arr,int high, int low, int s)
 {
-    for(int i = 0; i < length / 2; i++ )
-    {
-        if(s[i] != s[length - i - 1]) return 0;
+
+    while(low < high){
+        int m = low + ((high - low)/2);
+        if(arr[m] > s) low = m+1;
+        else if( arr[m] < s) low = m-1;
+        else return m;
     }
-    return 1;
+    return -1;
 }
 
-int main(){
-    
-    string s = "lil";
-    int truth = find_palindrome(s,s.length());
-    
+
+int main() {
+    int arr[] = {0,1,2,3};
+    int number = 1;
+    int truth = binary_search(arr,3,0,number);
+    cout << "the number : " << number << " is it in the array ?" << endl;
     cout << truth << endl;
-    
+
     return 0;
 }
