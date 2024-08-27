@@ -3,10 +3,10 @@
    For the sake of example, I will assume that you are working with 32-bit addressing and 32-bit words.
      - First allocate the Array. For performance reasons make sure that it is aligned on a 4-byte boundary.
      - Make sure all the three variables are in registers.
-    I will assume that
-    `x1` contains the starting address of Array
-    `x3` contains the value of i
-    `x4` contains the value of c
+    I will assume that:
+    * `x1` contains the starting address of Array
+    * `x3` contains the value of i
+    * `x4` contains the value of c
      - Rewrite the C array statement into indirect addressing of a char array
     `Array[i] = c;`      becomes        ` *((char *)Array + 4*i) = c; `
     The reason for casting the array into (char *) is because RISC-V accesses memory using byte addresses.
