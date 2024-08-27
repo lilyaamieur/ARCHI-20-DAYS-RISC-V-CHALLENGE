@@ -15,14 +15,14 @@ _start:
 palindrom:
     li t0, 0
     srai t1, a1, 1
-    addi t2, a1, zero
+    addi t2, a1, 0
 
     Loop:
     beq t1, t0, end
 
     lb t3, 0(t0)
 
-    addi t2, t0, zero
+    addi t2, t0, 0
     addi t2, t2, -1
 
     lb t4, 0(t2)
@@ -36,7 +36,7 @@ palindrom:
     eq:
     addi t0, t0, 1
     j Loop
-    
+
     end:
     addi a0, a0, 1
     ret
