@@ -5,7 +5,7 @@ and forward. For example, “civic” and “redder” are palindromes, but
 ## Instruction 
 Implement the RISC-V function find_palindrome `find_palindrome(string s, int length)`.
 
-You may only use registers a0, a1, t5 and t6.
+You may only use registers `a0`, `a1`, `t5` and `t6`.
 
 ### input
 * a nonempty null-terminated string in `a0`.
