@@ -7,11 +7,11 @@ Implement the RISC-V function find_palindrome `find_palindrome(string s, int len
 
 You may only use registers `a0`, `a1`, `t5` and `t6`.
 
-### input
+### Input
 * a nonempty null-terminated string in `a0`.
 * its length (excluding the null-terminator) in `a1`. 
 
-### output
+### Output
 
 * The function should return 1 in `a0` if the string is a palindrome and 0 in `a0` otherwise.
 
