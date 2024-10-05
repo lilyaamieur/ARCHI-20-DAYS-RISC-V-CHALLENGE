@@ -33,7 +33,7 @@ Each challenge will have its own folder containing the problem statement, exampl
 ## Exercises
 | Exercise name | Difficulty | Covered topics|
 |---------------|:----------:|---------------|
-| `binary2dec` | easy | load/store, bit operations|
+| `binary2dec` | easy | load/store, bit operations,reversing_string|
 | `N-bits` | easy| bit operations|
 | `Number_of_chars` | easy| bit operations|
 | `MaxofArr` | easy | load/store|
