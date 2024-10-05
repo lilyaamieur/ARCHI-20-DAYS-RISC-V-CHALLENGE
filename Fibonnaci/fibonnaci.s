@@ -8,7 +8,6 @@ txt1: .ascii "The number is : "
 txt2: .ascii "Fibonacci("
 txt3: .ascii ") is : "
 buffer: .space 255
-number: .byte 32
 
 
 .org 0x200
@@ -28,6 +27,7 @@ li a7, 5
 la a0, buffer
 li a1, 255
 ecall
+
 
 
 jal ra, Fibonacci
