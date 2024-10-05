@@ -34,16 +34,19 @@ Each challenge will have its own folder containing the problem statement, exampl
 | Exercise name | Difficulty | Covered topics|
 |---------------|:----------:|---------------|
 | `binary2dec` | easy | load/store, bit operations|
-| `counting_bits` | easy| bit operations|
-| `max_of_arr` | easy | load/store|
+| `N-bits` | easy| bit operations|
+| `Number_of_chars` | easy| bit operations|
+| `MaxofArr` | easy | load/store|
 | `reversing_string` | easy| load/store, strings|
 | `simple_stack` | easy| stack|
+|`Fibonnaci`|easy||
 | `sum_even` | easy| load/store, bit operations|
 | `bubblesort` | medium| load/store|
 | `dec2binary` | medium| load/store, bit operations|
 | `jumptables` | medium| jumptables |
 | `printlen` | medium| load/store, strings|
 | `rec_fn` | medium| recursion|
+|`Final_exam_palindrom`|medium|load/store, strings|
 | `binary_search` | hard| load/store, complex control flow, recursion|
 | `binary_tree_max` | hard| load/store, trees, complex control flow, recursion|
 | `triangular_numbers` | hard| recursion|
