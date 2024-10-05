@@ -6,7 +6,7 @@
 
 
 _start:
-    li a0, 4 ;test with n = 4, return value should be in a0
+    li a0, 4 #test with n = 4, return value should be in a0
     jal ra, calc_Fn
     ebreak
 

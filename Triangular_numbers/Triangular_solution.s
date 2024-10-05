@@ -25,7 +25,7 @@ calc_triangular:
     sw ra, 0(sp)
     sw a0, 4(sp)
 
-    ; base cases
+    # base cases
     addi t0, zero, 1
     bgeu a0, t0, check_2
     addi a0, zero, 0
@@ -43,26 +43,26 @@ calc_triangular:
     addi a0, zero, 3
     j end
 
-    ; recursive calls
+    # recursive calls
     rec:
-    ; recursive call for s_{n-1}
-    addi a0, a0, -1 ; set a0 to n-1
+    # recursive call for s_{n-1}
+    addi a0, a0, -1 # set a0 to n-1
     jal calc_triangular
-    sw a0, 8(sp)    ; save return value
-    lw a0, 4(sp)    ; restore n
+    sw a0, 8(sp)    # save return value
+    lw a0, 4(sp)    # restore n
 
-    ; recursive call for s_{n-2}
-    addi a0, a0, -2 ; set a0 to n-2
+    # recursive call for s_{n-2}
+    addi a0, a0, -2 # set a0 to n-2
     jal calc_triangular
-    sw a0, 12(sp)   ; save return value
-    lw a0, 4(sp)    ; restore n
+    sw a0, 12(sp)   # save return value
+    lw a0, 4(sp)    # restore n
 
 
-    ; recursive call for s_{n-3}
-    addi a0, a0, -3 ; set a0 to n-3
+    # recursive call for s_{n-3}
+    addi a0, a0, -3 # set a0 to n-3
     jal calc_triangular
 
-    ; multiply and add everything together (a0 already contains s_{n-3})
+    # multiply and add everything together (a0 already contains s_{n-3})
     addi t0, zero, 3
     lw t1, 8(sp)
     lw t2, 12(sp)

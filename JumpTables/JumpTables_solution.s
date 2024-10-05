@@ -59,7 +59,7 @@ ebreak
 # returns:
 #   nothing
 
-; -------- SOLUTION  ----------
+# -------- SOLUTION  ----------
 
 num_to_string:
     addi sp, sp, -16
@@ -147,7 +147,7 @@ num_to_string:
     addi sp, sp, 16
     jalr zero, 0(ra)
 
-; -------- SOLUTION  ----------
+# -------- SOLUTION  ----------
 
 # arguments:
 #   a0: pointer to string struct

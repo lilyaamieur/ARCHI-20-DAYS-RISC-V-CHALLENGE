@@ -58,12 +58,12 @@ ebreak
 # returns:
 #   nothing
 
-; -------- SOLUTION  ----------
+# -------- SOLUTION  ----------
 
 num_to_string:
 
 
-; -------- SOLUTION  ----------
+# -------- SOLUTION  ----------
 
 # arguments:
 #   a0: pointer to string struct
