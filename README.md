@@ -39,8 +39,8 @@ Each challenge will have its own folder containing the problem statement, exampl
 | `MaxofArr` | easy | load/store|
 | `reversing_string` | easy| load/store, strings|
 | `simple_stack` | easy| stack|
-|`Fibonnaci`|easy||
 | `sum_even` | easy| load/store, bit operations|
+|`Fibonnaci`|easy|recursion,load/store, bit operations|
 | `bubblesort` | medium| load/store|
 | `dec2binary` | medium| load/store, bit operations|
 | `jumptables` | medium| jumptables |
