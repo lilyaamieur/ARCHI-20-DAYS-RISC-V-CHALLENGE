@@ -61,7 +61,7 @@ To get started with this challenge:
     ```
 2. Navigate to the day's challenge directory:
     ```sh
-    cd ARCHI-20-DAYS-RISC-V-CHALLENGE/Day1
+    cd ARCHI-20-DAYS-RISC-V-CHALLENGE/challenge_name
     ```
 3. Read the challenge instructions and start coding!
 
