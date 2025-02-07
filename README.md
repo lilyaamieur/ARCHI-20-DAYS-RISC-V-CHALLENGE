@@ -10,7 +10,6 @@ Welcome to the **ARCHI-20-DAYS-RISC-V-CHALLENGE**! This repository is dedicated 
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
