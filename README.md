@@ -87,7 +87,14 @@ You can follow these steps to solve a challenge:
 2. Test your code using a RISC-V simulator.
 3. Compare your solution with `solution.s` if needed.
 
-## Contributing
+## Contributing  
 
-If you would like to contribute to this project, feel free to submit a pull request or open an issue. Contributions can include new challenges, optimizations, or additional documentation.
+We welcome contributions to this project! You can contribute by submitting a pull request or opening an issue. Contributions may include:  
+
+- Optimizations and improvements  
+- Additional documentation  
+
+If you encounter any issues or have a potential solution to suggest, please use the following form to report or propose changes:  
+
+[🔗 Submit an Issue or Suggest a Solution](https://docs.google.com/forms/d/e/1FAIpQLSftsKOLphwswpYvx20OCLxQfGS7plhp1_iOcoesUqHwhB0e_A/viewform)  
 
